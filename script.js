@@ -19,6 +19,11 @@ let frameY = 0;
 let gameFrame = 0;
 const STAGGER_FRAMES = 4;
 
+const spriteAnimations = [
+  { name: "idle", frames: 7 },
+  { name: "jump", frames: 7 },
+];
+
 function animateSprite() {
   /**
    *"clearRect" limpa todos os pixels do nosso canvas a cada frame executado.
