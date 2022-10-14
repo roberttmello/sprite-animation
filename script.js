@@ -1,10 +1,13 @@
-let animation = "run";
+let animation = "idle";
 
-// Pegando o valor selecionado no dropdown
-const DROPDOWN = document.getElementById("animations");
-DROPDOWN.addEventListener("change", function (e) {
-  animation = e.target.value;
-});
+
+const setAnimation = (event) => {
+  animation = event.target.value;
+};
+
+const SELECT_ELEMENT = document.querySelector("select");
+
+SELECT_ELEMENT.addEventListener("change", setAnimation);
 
 // Selecionando e guardando a referência para o canvas criado no html
 const CANVAS = document.getElementById("canvas1");
