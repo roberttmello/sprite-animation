@@ -1,12 +1,16 @@
+// Variável que controla qual animação será executada
 let animation = "idle";
 
-
+// Função que altera a variável "animation" quando
+// o evento "change" do select é identificado.
 const setAnimation = (event) => {
   animation = event.target.value;
 };
 
+// Selecionando o elemento "select" do html
 const SELECT_ELEMENT = document.querySelector("select");
 
+// Monitorando o evento "change" do elemento "select"
 SELECT_ELEMENT.addEventListener("change", setAnimation);
 
 // Selecionando e guardando a referência para o canvas criado no html
