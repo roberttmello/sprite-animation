@@ -1,3 +1,11 @@
+let animation = "run";
+
+// Pegando o valor selecionado no dropdown
+const DROPDOWN = document.getElementById("animations");
+DROPDOWN.addEventListener("change", function (e) {
+  animation = e.target.value;
+});
+
 // Selecionando e guardando a referência para o canvas criado no html
 const CANVAS = document.getElementById("canvas1");
 
@@ -32,7 +40,6 @@ const SPRITE_ANIMATIONS = {
 // Constante que controla a velocidade da animação.
 const ANIMATION_VELOCITY = 4;
 
-let animation = "run";
 let frameX = 0;
 let gameFrame = 0;
 let animationID = SPRITE_ANIMATIONS[animation]["animationId"];
