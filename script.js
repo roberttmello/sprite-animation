@@ -1,10 +1,13 @@
 // Variável que controla qual animação será executada
 let animation = "idle";
 
+let animationID = null;
+
 // Função que altera a variável "animation" quando
 // o evento "change" do select é identificado.
 const setAnimation = (event) => {
   animation = event.target.value;
+  animationID = SPRITE_ANIMATIONS[animation]["animationId"];
 };
 
 // Selecionando o elemento "select" do html
@@ -49,7 +52,6 @@ const ANIMATION_VELOCITY = 4;
 
 let frameX = 0;
 let gameFrame = 0;
-let animationID = SPRITE_ANIMATIONS[animation]["animationId"];
 
 function animateSprite() {
   /**
