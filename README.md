@@ -1,5 +1,5 @@
 <h1 align="center">
-   <img alt="sprite-animation" src="github/sprite-animation.png" width="150px" />
+   <img alt="sprite-animation" src="github/sprite-animation.svg" width="150px" />
 </h1>
 
 <div align="center">
