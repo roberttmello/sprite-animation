@@ -10,7 +10,6 @@
   <a href="#about"> About </a> &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;
   <a href="#presentation">Presentation</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#getting-started">Getting started</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#technologies">Stack</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#license">License</a>
 </p>
 
@@ -20,6 +19,7 @@
 
 ## Presentation
 
+<p>Some screenshots of the application interface.</p>
 <div align="center">
    <img alt="idle-animation" src="github/idle-animation.png" width="1519px" />
 </div>
@@ -33,7 +33,6 @@
 ## Getting started
 
 <p>This is a simple project with html, css and vanilla javascript, the only detail to run this project on your machine is that to run all the canvas functions you need to execute the code on a local server. My advice is to use the server built into the VS Code editor itself or use an extension like the "Live Server".</p>
-## Technologies
 
 ## License
 
