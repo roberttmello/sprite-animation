@@ -32,6 +32,9 @@
 
 ## Getting started
 
+<p>This is a simple project with html, css and vanilla javascript, the only detail to run this project on your machine is that to run all the canvas functions you need to execute the code on a local server. My advice is to use the server built into the VS Code editor itself or use an extension like the "Live Server".</p>
 ## Technologies
 
 ## License
+
+<p> This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.</p>
