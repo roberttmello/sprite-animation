@@ -13,3 +13,15 @@
   <a href="#technologies">Stack</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#license">License</a>
 </p>
+
+## About the project
+
+<p>Sprite animation with html, css and javascript. In this project the <b>canvas element</b> is used to get complete control over an sprite sheet. The user can choose from ten animations and see the <b>shadow dog</b> adapt respectively.</p>
+
+## Presentation
+
+## Getting started
+
+## Technologies
+
+## License
