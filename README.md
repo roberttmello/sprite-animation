@@ -17,6 +17,8 @@
 
 <p>Sprite animation with html, css and javascript. In this project the <b>canvas element</b> is used to get complete control over an sprite sheet. The user can choose from ten animations and see the <b>shadow dog</b> adapt respectively.</p>
 
+<h3> See the application demo <a href="https://roberttmello-sprite-animation.vercel.app/">HERE</a>.</h3>
+
 ## Presentation
 
 <p>Some screenshots of the application interface.</p>
