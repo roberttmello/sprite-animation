@@ -1,5 +1,5 @@
 <div align="center">
-   <img alt="sprite-animation" src="github/sprite-animation-logo.svg" width="600px" />
+   <img alt="Sprite animation logo" src="github/sprite-animation-logo.svg" width="600px" />
 </div>
 
 <div align="center">
@@ -19,6 +19,16 @@
 <p>Sprite animation with html, css and javascript. In this project the <b>canvas element</b> is used to get complete control over an sprite sheet. The user can choose from ten animations and see the <b>shadow dog</b> adapt respectively.</p>
 
 ## Presentation
+
+<div align="center">
+   <img alt="idle-animation" src="github/idle-animation.png" width="1519px" />
+</div>
+
+##
+
+<div align="center">
+   <img alt="idle-animation" src="github/choose-animation.png" width="1519px" />
+</div>
 
 ## Getting started
 
